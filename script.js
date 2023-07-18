@@ -1,7 +1,7 @@
-let text = "";
+let text = "Spam the Keyboard / Tapping ";
 const textContainer = document.getElementById("text");
 
-const sentence1 = "\nCrazy?";
+const sentence1 = "\n\nCrazy?";
 const sentence2 = "\nI was Crazy once.";
 const sentence3 = "\nThey locked me in a room.";
 const sentence4 = "\nA rubber room.";
@@ -18,8 +18,6 @@ document.addEventListener("keydown", () => {
     if (i >= sentencesArray[j].length) {
         j++;
         i = 0;
-        console.log(`i: ${i}
-        j: ${j}`);
     }
 
     if (j < sentencesArray.length) {
@@ -38,8 +36,6 @@ document.addEventListener("touchstart", () => {
     if (i >= sentencesArray[j].length) {
         j++;
         i = 0;
-        console.log(`i: ${i}
-        j: ${j}`);
     }
 
     if (j < sentencesArray.length) {
